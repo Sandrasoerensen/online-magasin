@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0ead2;
+}
+.header{
+    background-color: #f0ead2;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 50px;
+    position: fixed;
+}
+.logo{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+}
+.header ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.header ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+.header ul li .menu1{
+    text-decoration: underline;
+}
+.header ul li a:hover{
+    color: #adc178;
+    padding: 0;  
+}
+.dropdown-menu{
+    display: none;
+}
+.header ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    color: black;
+    background-color: #fff;
+}
+.header ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+.header ul li:hover .dropdown-menu ul li{
+    width: 140px;
+    padding: 10px;
+}
+.dropdown-menu2{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    color: #adc178;
+    background-color: #fff;
+}
+.banner{
+    height: calc(45vh - 80px);
+    color: white;
+    padding-left: 3%;
+    padding-top: 13%;
+    font-size: 20px;
+}
+
+
+
+.artikel1{
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 600px;
+    line-height: 35px;
+}
+h1{
+    font-size: 40px;
+    font-weight: lighter
+}
+.underoverskrift{
+    font-size: 20px;
+}
+.del1{
+   margin-bottom: 25px;
+   font-size: 20px;
+}
+.del2{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.del3{
+    font-size: 20px;
+}
+.del4{
+    font-size: 20px;
+}
+.del5{
+    font-size: 20px;
+}
+.del6{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.del7{
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+h3{
+    margin-top: 25px;
+}
+.del8{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.del9{
+    margin-bottom: 25px;
+    font-size: 20px; 
+}
+.del10{
+    font-size: 20px; 
+}
+.del11{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.del12{
+    font-size: 20px; 
+    margin-bottom: 130px;
+}
+.artikel1 ul{
+    list-style: circle;
+    margin-left: 15px;
+}
+.artikel1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.billede{
+    width: 465px;
+    margin-bottom: 200px;
+    margin-right: 0px;
+    margin-top: -1110px;
+    margin-left: 710px;
+    padding-bottom: 250px;
+}
+
+
+.container2{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #adc178;
+    padding: 70px 0;
+    height: 300px;
+}
+.footer h5{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.footer-col ul li{
+    margin-bottom: 15px;
+    padding-left: 0px;
+    margin-left: 40px;
+}
+.footer-col ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer h6{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin-left: 800px;
+    margin-top: -155px;
+}
+.facebook{
+    width: 50px;
+    margin-left: 800px;
+}
+.instagram{
+    width: 50px;
+    margin-left: 890px;
+    margin-top: -1100px;
+    margin-bottom: 17px;
+}
+.youtube{
+    width: 70px;
+    margin-left: 970px;
+    margin-top: -1100px;
+    margin-bottom: 38px;
+}
